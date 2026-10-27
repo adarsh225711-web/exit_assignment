@@ -1,0 +1,16 @@
+{
+  "name": "personal-expense-tracker",
+  "version": "1.0.0",
+  "description": "Personal Expense Tracker web application using MERN Stack",
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/server.js",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": ["mern", "expense-tracker", "mongodb", "express", "react", "node"],
+  "author": "Adarsh",
+  "license": "ISC"
+}
